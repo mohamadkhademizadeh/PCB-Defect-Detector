@@ -1,0 +1,7 @@
+inference:
+  backend: auto     # auto|yolo|classical
+  model_path: models/best.pt
+classical:
+  blur: 3
+  thr: 15
+  min_area: 80
